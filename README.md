@@ -7,7 +7,7 @@ Live Preview: <a href='https://snakefile.com'>Snakefile.com</a>
 <br>
 .NET OCI SDK is used in the API solution for easy integration.
 <br><br>
-IP rate-limits are also included as middleware in the API for scalability. The rate limiting is based on the X-Forwarded-For header which is inserted in the HTTP Request by the NGINX reverse proxy.
+IP rate-limits are included in the API for scalability. The rate limiting is based on the X-Forwarded-For header which is inserted in the HTTP Request by the NGINX reverse proxy.
 <br><br>
 The API runs 24/7 as a systemd service on a Ubuntu VM. The VM Shape for the live preview is very weak (VM.Standard.E2.1.Micro).
 

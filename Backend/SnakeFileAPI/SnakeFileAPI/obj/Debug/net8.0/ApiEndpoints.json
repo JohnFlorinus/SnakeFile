@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "SnakeFileAPI.Controllers.FileController",
+    "Method": "DownloadFile",
+    "RelativePath": "files/download/{ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SnakeFileAPI.Controllers.FileController",
+    "Method": "UploadFile",
+    "RelativePath": "files/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

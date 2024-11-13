@@ -1,0 +1,6 @@
+@SnakeFileAPI_HostAddress = http://localhost:5053
+
+GET {{SnakeFileAPI_HostAddress}}/snakefileapi/
+Accept: application/json
+
+###

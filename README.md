@@ -1,5 +1,4 @@
-This is the source code for a file sharing website I made as a personal project.
-Live preview of the project can be found on <a href='https://snakefile.com'>Snakefile.com</a>
+Live Preview: <a href='https://snakefile.com'>Snakefile.com</a>
 
 What is not included in the source code is the actual setup of the cloud environment such as Object Storage, VM and VCN.
 The authentication credentials for OCI have also been redacted and their variable locations can be found in Program.cs

@@ -1,7 +1,7 @@
 Live Preview: <a href='https://snakefile.com'>Snakefile.com</a>
 
 What is not included in the source code is the actual setup of the cloud environment such as Object Storage, VM and VCN.
-The authentication credentials for OCI have also been redacted and their variable locations can be found in Program.cs (I know a keys.cs file with .gitignore would have been better)
+The authentication credentials for OCI have also been redacted and their variable locations can be found in Program.cs (I'm aware a keys.cs with .gitignore would have been better)
 
 <h2>Backend</h2>
 The backend is composed of a ASP.NET Web API with two HTTP endpoints, PUT for uploads and GET for downloads.

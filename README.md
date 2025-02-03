@@ -5,7 +5,7 @@ Live Preview: <a href='https://snakefile.com'>Snakefile.com</a>
 <h2>Backend</h2>
 1 REST API that acts as a middleman to the Oracle Cloud Bucket containing the files.
 <br>
-.NET OCI SDK is used for easy integration.
+.NET OCI SDK is used in the API solution for easy integration.
 <br><br>
 IP rate-limits are also included as middleware in the API for scalability. The rate limiting is based on the X-Forwarded-For header which is inserted in the HTTP Request by the NGINX reverse proxy.
 <br><br>

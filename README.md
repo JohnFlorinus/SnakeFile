@@ -1,12 +1,30 @@
-<h2>A File Sharing Website - <a href="https://snakefile.com">Click here for live demo</a></h2>
+# 📂 File Sharing Website - [🔗 Live Demo](https://snakefile.com)
 
-<h3>Backend</h3>
-* Files are stored in a bucket on Oracle Cloud
-<br>
-* Nginx linked to a .NET API. The VM Shape for the live demo is very weak (VM.Standard.E2.1.Micro)
-<br>
-* IP rate-limits are included for scalability
-<h3>Frontend</h3>
-Built on standalone HTML, CSS and Javascript.
-<br>
-Fetch() is used to communicate with the backend api through a subdomain (api.snakepoint.com) which is DNS routed to the VM ip address.
+---
+
+## 🌐 Project Overview
+This is a simple **file sharing website** built with a lightweight stack.  
+It allows users to upload and access files via a **.NET API backend** running on Oracle Cloud Infrastructure (OCI), with a static HTML/JS frontend.  
+
+---
+
+## 🛠️ Backend
+
+- ☁️ **Storage**: Files are stored in an **Oracle Cloud Object Storage bucket**.  
+- 🌐 **API Layer**:  
+  - Backend is a **.NET Web API** running on an Oracle Cloud VM.  
+  - VM shape for demo: **`VM.Standard.E2.1.Micro`** (very minimal resources).  
+- 🔒 **Nginx Reverse Proxy**:  
+  - Handles HTTPS and routing.  
+  - Configured to link the domain → API.  
+- 📈 **Scalability**:  
+  - Basic **IP rate limiting** is enabled to prevent abuse.  
+
+---
+
+## 🎨 Frontend
+
+- 🖥️ Built with **standalone HTML, CSS, and JavaScript** (no frameworks).  
+- 🔗 **API Communication**:  
+  - Uses JavaScript `fetch()` to interact with backend API endpoints.  
+  - API served at **`api.snakepoint.com`**, DNS-routed to the VM’s public IP.  

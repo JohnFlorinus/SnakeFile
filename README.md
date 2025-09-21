@@ -6,6 +6,8 @@
 This is a simple **file sharing website** built with a lightweight stack.  
 It allows users to upload and access files via a **.NET API backend** running on Oracle Cloud Infrastructure (OCI), with a static HTML/JS frontend.  
 
+⚠️ This **README** was AI-generated for better readability and structure. However, the project itself was manually coded by myself.  
+
 ---
 
 ## 🛠️ Backend

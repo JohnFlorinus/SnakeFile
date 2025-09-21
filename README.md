@@ -20,7 +20,7 @@ It allows users to upload and access files via a **.NET API backend** running on
   - Handles HTTPS and routing.  
   - Configured to link the domain → API.  
 - 📈 **Scalability**:  
-  - Basic **IP rate limiting** is enabled to prevent abuse.  
+  - Basic **IP rate limiting + server-side checks** included to prevent abuse.  
 
 ---
 
